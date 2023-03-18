@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <h1>Regex Tester</h1> 
+        <form action="{{url_for('result')}}" method="post"> 
+            <label for="string">Enter a string:</label>
+        
+            <input type="text" id="string" name="string" required><br><br><br><br> 
+            <label for="regex">Enter a regular expression:</label>
+        
+            <input type="text2" id="regex" name="regex" required><br><br><br><br>
+        
+            <input type="submit" value="Test Regex">
+        
+        </form>
+</body>
+</html>

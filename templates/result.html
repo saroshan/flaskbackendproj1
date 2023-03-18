@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Regex Test Matches</h1> 
+    <form>
+        {% if match %} 
+        <ul>
+            {% for i in match %}
+            <li>{{i}}</li>
+        {% endfor %}
+        <p>Count of Matches {{match1}}</p>
+        
+        </ul>
+        
+        {% else %}
+            <p>No match found</p> 
+            {% endif %}
+        
+    </form>
+</body>
+</html>
